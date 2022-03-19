@@ -36,10 +36,10 @@ body {
 }
 
 section {
-    margin: 20px auto;    
+    margin: 23px auto;    
     background-color: var(--azul-card);
     width: 20rem;
-    height: 40rem;
+    height: 41rem;
     border-radius: 0.625rem;
     font-size: 0.8rem;
 }
@@ -62,7 +62,8 @@ h1 {
     font-size: 26px;
     text-align: center;
     color: var(--branco-h1);
-    padding: 1.3rem 0 0 0;    
+    padding: 1.3rem 0 0 0;
+    margin: 0 0 1.2rem 0 ;    
 }
 
 span.insights {
@@ -72,7 +73,7 @@ span.insights {
 p {
     font-family: var(--fonte2);
     text-align: center;
-    margin: 0.8rem 1.3rem;  
+    margin: 1.2rem 1.3rem;  
     line-height: 1.2rem;  
     color: var(--branco-p);
 }
