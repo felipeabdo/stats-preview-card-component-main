@@ -36,7 +36,7 @@ body {
 }
 
 section {
-    margin: 5% auto;    
+    margin: 20px auto;    
     background-color: var(--azul-card);
     width: 20rem;
     height: 40rem;
