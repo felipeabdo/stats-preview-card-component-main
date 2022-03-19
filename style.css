@@ -25,21 +25,20 @@
 
 body {
     background-color: var(--azul-background);
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;    
     align-items: center;
     justify-content: center;
     padding: 20px;
-    
 }
 
 section {
     background-color: var(--azul-card);
     width: 20rem;
-    height: 90vh;
+    height: 100%;
     border-radius: 0.625rem;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
 img.header-mobile {
