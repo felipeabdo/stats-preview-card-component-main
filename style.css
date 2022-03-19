@@ -87,7 +87,7 @@ span.numeros {
     margin-bottom: 5px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 846px) {
     
     body {
         height: 100vh;
