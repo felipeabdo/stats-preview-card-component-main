@@ -95,96 +95,13 @@ span.numeros {
     margin-bottom: 1px;
 }
 
-
-
-@media (min-width: 1280px) {
-    
-    body {
-        height: 100vh;
-        
-        /* display: flex;             */
-        /* align-items: center;
-        justify-content: center; */
-    }
-
-    section {
-        display: flex;
-        flex-direction: row-reverse;
-        max-height: 75%;
-        width: 90%;
-        margin: 5%;
-        /* border-radius: 0.625rem; */
-        font-size: 13px;
-                  
-    }
-    
-    div.textos {
-        width:35%;
-        /* height: 20%; */
-        margin: 0 auto;
-        padding-top: 3%;
-        /* padding-bottom: 5%; */
-        
-    }
-
-    h1 {
-        /* font-family: var(--fonte1);
-        font-weight: 700; */
-        font-size: 28px;
-        text-align: left;
-        /* color: var(--branco-h1); */
-        padding-bottom: 1rem;
-        padding-left: 1.2rem;
-            
-    }
-
-    /* span.insights {
-        color: var(--violeta-destaque);
-    } */
-
-    p {
-        /* font-family: var(--fonte2); */
-        text-align: left;
-        padding: 0 1.5rem;  
-        /* line-height: 1.8rem;  
-        color: var(--branco-p); */
-        display: inline-block;
-    }
-
-    /* p.texto {
-        margin-bottom: 3rem;
-    } */
-
-    /* p.dados {
-        margin-bottom: 2.5rem;
-        text-transform: uppercase;
-    } */
-    
-    span.numeros {
-        /* color:var(--branco-h1);
-        font-family: var(--fonte1);
-        font-weight: 700; */
-        font-size: 27px;
-        display: block;
-        /* margin-bottom: 5px; */
-    } 
-
-    img.header-mobile {  
-        border-radius: 0 0.625rem  0.625rem 0 ;
-        width: 50%;
-        padding-bottom: 0px;  
-    }
-}
-
-@media (min-width: 1514px) {
+@media (min-width: 846px) and (min-height: 412px) {
     
     body {
         height: 100vh;
         display: flex;            
         align-items: center;
         justify-content: center;
-        
-        
     }
 
     section {
@@ -193,12 +110,12 @@ span.numeros {
         height: 75%;
         width: 80%;
         border-radius: 0.625rem;
-        font-size: 15px;
+        font-size: 1rem;
         margin: 5%;        
     }
     
     div.textos {
-        width:35%;
+        width:40%;
         height: 50%;
         margin: 0 auto;
         padding-top: 5%;
@@ -209,10 +126,9 @@ span.numeros {
     h1 {
         font-family: var(--fonte1);
         font-weight: 700;
-        font-size: 35px;
+        font-size: 2.5rem;
         text-align: left;
-        color: var(--branco-h1);
-        padding-bottom: 3rem;
+        color: var(--branco-h1);        
         padding-left: 1.2rem;
             
     }
@@ -224,17 +140,18 @@ span.numeros {
     p {
         font-family: var(--fonte2);
         text-align: left;
-        padding: 0 1.5rem;  
+        font-size: 1.1rem;
         line-height: 1.8rem;  
         color: var(--branco-p);
         display: inline-block;
     }
 
     p.texto {
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
 
     p.dados {
+        font-size: 1rem;
         margin-bottom: 2.5rem;
         text-transform: uppercase;
     }
@@ -255,6 +172,8 @@ span.numeros {
     }
 
 }
+
+
 
 
 
