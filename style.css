@@ -95,7 +95,7 @@ span.numeros {
     margin-bottom: 1px;
 }
 
-@media (min-width: 846px) and (min-height: 412px) {
+@media (min-width: 740px) and (min-height: 360px) {
     
     body {
         height: 100vh;
