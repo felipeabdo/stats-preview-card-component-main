@@ -52,14 +52,14 @@ img.header-mobile {
 
 div.textos {
     height: 360px;
-    width: 280px;
+    width: 270px;
     margin: 0 auto;
 }
 
 h1 {
     font-family: var(--fonte1);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
     color: var(--branco-h1);
     padding: 1.3rem 0 0 0;    
@@ -73,12 +73,12 @@ p {
     font-family: var(--fonte2);
     text-align: center;
     margin: 0.8rem 1.3rem;  
-    line-height: 1.6rem;  
+    line-height: 1.2rem;  
     color: var(--branco-p);
 }
 
 p.texto {
-    margin-bottom: 1rem;    
+    margin-bottom: 1.5rem;    
 }
 
 p.dados {    
