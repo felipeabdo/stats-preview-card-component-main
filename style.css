@@ -107,8 +107,8 @@ span.numeros {
     section {
         display: flex;
         flex-direction: row-reverse;
-        height: 75%;
-        width: 80%;
+        height: 219px;
+        width: 480px;
         border-radius: 0.625rem;
         font-size: 1rem;
         margin: 5%;        
@@ -117,7 +117,7 @@ span.numeros {
     div.textos {
         width:40%;
         height: 50%;
-        margin: 0 auto;
+        margin: 0 2.3rem 2rem 0;
         padding-top: 5%;
         padding-bottom: 5%;
         
@@ -126,10 +126,11 @@ span.numeros {
     h1 {
         font-family: var(--fonte1);
         font-weight: 700;
-        font-size: 2.5rem;
+        font-size: 1rem;
         text-align: left;
         color: var(--branco-h1);        
         padding-left: 1.2rem;
+        margin: 0 0 0.8rem 0;
             
     }
 
@@ -138,21 +139,23 @@ span.numeros {
     }
 
     p {
+        margin-top: 0;
         font-family: var(--fonte2);
         text-align: left;
-        font-size: 1.1rem;
-        line-height: 1.8rem;  
+        font-size: 0.35rem;
+        line-height: 0.8rem;  
         color: var(--branco-p);
         display: inline-block;
     }
 
     p.texto {
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
 
     p.dados {
-        font-size: 1rem;
-        margin-bottom: 2.5rem;
+        font-size: 0.4rem;
+        margin: 0 0 0 20px;
+        /* margin-bottom: 0.3rem; */
         text-transform: uppercase;
     }
     
@@ -160,9 +163,9 @@ span.numeros {
         color:var(--branco-h1);
         font-family: var(--fonte1);
         font-weight: 700;
-        font-size: 27px;
+        font-size: 0.7rem;
         display: block;
-        /* margin-bottom: 5px; */
+        /* margin-bottom: 4px; */
     } 
 
     img.header-mobile {  
